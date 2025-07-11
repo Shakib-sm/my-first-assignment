@@ -5,7 +5,7 @@
   font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
 
 /*nav styles*/
@@ -49,8 +49,85 @@ nav ul li {
     text-align: center;
 }
 body{
-    background-image: url(image/Hero-bg.png);
-    background-size: cover;
+    /* background-image: url(image/Hero-bg.png); */
+    background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.see-it-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #f9f9f9;
+    border-radius: 16px;
+    margin-top: 40px;
+}
+.see-it-section.left{
+    max-width: 50%;
+}
+.see-it-section h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.see-it-section p{
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+
+}
+.see-it-section button{
+    padding: 10px 20px;
+    background-color: #0057ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+.see-it-section .right img{
+    max-width: 300px;
+    border-radius: 12px;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-description{
+    font-size: 18px;
+
+}
+.secondary-bg{
+background-color: #cbe6ff; 
+}
+.about{
+    border-radius: 10px;
+    padding: 30px 50px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.item-description{
+    font-weight: 600;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    color: rgb(44, 79, 255);
+    font-size: 2rem;
+    font-weight: 1000;
+}
+.headerDiv{
+    background-image: url(image/Hero-bg.png);
+    background-repeat: no-repeat;
+  /* background-attachment: initial; */
+  background-position: initial;
+  height: 300px;
+
 }
