@@ -28,8 +28,12 @@ nav{
     padding: 5px 10px;
     border-radius: 5px;
     border:none;
+      transition: 0.3s;
+    
 }
-
+.btn-primary:hover{
+    background-color: #002b81;
+}
 nav ul{
     display:flex;
 }
@@ -200,13 +204,15 @@ main{
 }
 footer{
     padding: 30px 20px;
-    display: flex;
+    /* display: flex; */
     gap: 50px;
 
 
 }
 .footer-column{
     width: 100%;
+    justify-content: space-between;
+    /* display: flex; */
 }
 footer input[type="text"],footer input[type="email"],footer textarea[] {
     height: 20px;
@@ -222,7 +228,29 @@ footer input[type="text"],footer input[type="email"],footer textarea[] {
 .form-div{
     flex-direction: column;
 }
+.about-footers{
+    display: flex;
+    justify-content: space-around;
+}
+    .footers{
+        text-align: center;
+        justify-content: space-around;
+        font-weight: 600;
+
+    }
+    .item footer{
+        font-size: 2rem;
+        font-weight: 1000;
+        
+    }
+    .logo{
+        color: #0057ff;
+    }
  
+    .bristi{
+        display: flex;
+        justify-content: space-between;
+    }
 
 
 
